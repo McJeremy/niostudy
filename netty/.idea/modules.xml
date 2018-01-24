@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_01discard/_01discard.iml" filepath="$PROJECT_DIR$/_01discard/_01discard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplechat/simplechat.iml" filepath="$PROJECT_DIR$/simplechat/simplechat.iml" />
+    </modules>
+  </component>
+</project>
