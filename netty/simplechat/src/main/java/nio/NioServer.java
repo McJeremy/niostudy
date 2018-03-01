@@ -59,7 +59,7 @@ public class NioServer {
 
     void initServerSocketChannel() throws Exception {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
-        serverSocketChannel.bind(new InetSocketAddress(8889));
+        serverSocketChannel.socket().bind(new InetSocketAddress(8889));
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
     }
